@@ -7,6 +7,9 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
+    - "Gemfile"
+    - "test/**/*"
+    - "spec/**/*"
 
   DisplayCopNames: true
 
@@ -57,4 +60,6 @@ Style/HashEachMethods:
 Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
+  Enabled: false
+Lint/DuplicateBranch:  
   Enabled: false
